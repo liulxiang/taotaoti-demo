@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.question-section {
+	margin-bottom: 60px;
+}
+.question-section h4 {
+	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+}

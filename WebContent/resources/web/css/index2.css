@@ -1,0 +1,227 @@
+@CHARSET "UTF-8";
+
+/* Masthead (docs home)
+------------------------- */
+.masthead {
+	padding: 40px 0 80px;
+	margin-bottom: 0;
+	color: #fff;
+}
+.masthead h1 {
+	font-size: 4em;
+	color: #61C168;
+	margin: 60px 0;
+	line-height: 1.1em;
+	text-shadow: 0 1px 4px #000000;
+}
+.masthead p {
+	font-size: 1.4em;
+	color: #61C168;
+	line-height: 1.4em;
+	font-weight: normal;
+	margin-bottom: 60px;
+}
+
+
+/* Base class
+------------------------- */
+.jumbotron {
+	position: relative;
+	padding: 40px 0;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	-webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	background-color: transparent;
+}
+.jumbotron h1 {
+	font-size: 80px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+.jumbotron p {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.splash {
+	position: absolute;
+	z-index: -1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.splash img {
+	height: 100%;
+	width: 100%;
+}
+.show-case-item {
+}
+
+/* Textual links in masthead */
+.masthead-links {
+	margin: 0;
+	list-style: none;
+}
+.masthead-links li {
+	display: inline;
+	padding: 0 10px;
+	color: rgba(255,255,255,.25);
+}
+#banner-pagination ul {
+	list-style: none;
+	margin: 20px 0 0 0;
+}
+#banner-pagination ul li {
+	display: inline;
+	width: 25px;
+	text-align: center;
+}
+
+.masthead .bigbtn {
+	color: #fff;
+	text-shadow: 0 1px 0 #912e01;
+	background-color: #d8c431;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .3em 1.4em;
+	-webkit-border-radius: 2.8em;
+	-moz-border-radius: 2.8em;
+	-o-border-radius: 2.8em;
+	-ms-border-radius: 2.8em;
+	border-radius: 2.8em;
+	background-image: linear-gradient(bottom, rgb(255,96,43) 1%, rgb(255,148,67) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,96,43) 1%, rgb(255,148,67) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,96,43) 1%, rgb(255,148,67) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,96,43) 1%, rgb(255,148,67) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,96,43) 1%, rgb(255,148,67) 100%);
+	box-shadow: inset 0 1px 0 #ffd265, 0 0 0 1px #912e01, 0 0 0 7px rgba(0,0,0,.1), 0 1px 4px rgba(0,0,0,.6);
+	font-weight: 700;
+	font-style: normal;
+	overflow: visible;
+	border: none;
+	font-size: 24px;
+}
+.masthead .bigbtn:hover {
+	background-color: #ff831e;
+	background-image: linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+}
+.masthead .bigbtn:active {
+	background-color: #ff831e;
+	background-image: linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,148,67) 1%, rgb(255,96,43) 100%);
+}
+
+
+
+
+/* Marketing section of Overview
+-------------------------------------------------- */
+
+.marketing {
+	text-align: center;
+	color: #5a5a5a;
+}
+.marketing h1 {
+	margin: 60px 0 10px;
+	font-size: 60px;
+	font-weight: 200;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+.marketing h2 {
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+.marketing p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+.marketing .marketing-byline {
+	margin-bottom: 40px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 25px;
+	color: #999;
+}
+.marketing img {
+	display: block;
+	margin: 0 auto 30px;
+}
+.textleft {
+	text-align: left;
+}
+.services {
+	list-style: none;
+	margin-left: 0;
+}
+.services li {
+	line-height: 30px;
+}
+.bordertop {
+	border-top: 1px solid #EEE;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+
+
+
+/* Perks section on Home */
+
+.benefit {
+	background: url('../img/team_benefits_delimiter.png') no-repeat left bottom;
+	display: block;
+	padding: 1em 0;
+}
+.benefit .first {
+	padding: 0.5em 0 1em 0;
+}
+.benefit .icon {
+	float: left;
+	width: 64px;
+	height: 80px;
+	margin-right: 20px;
+}
+.benefit_text {
+	float: left;
+	width: 253px;
+}
+.benefit_text div {
+	margin: 0;
+}
+.benefit_text p {
+	font-size: 13px;
+	margin: 0;
+}
+.perks-title { font-size:16px; font-weight:bold; }
+.flexible-hours {
+	background: url('../img/flexible-hours.png') no-repeat left 7px;
+}
+.coffee-day {
+	background: url('../img/coffee-day.png') no-repeat left 7px;
+}
+.personal-projects {
+	background: url('../img/personal-projects.png') no-repeat left 7px;
+}
+.question-section {
+	margin-bottom: 60px;
+}
+.question-section h4 {
+	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
